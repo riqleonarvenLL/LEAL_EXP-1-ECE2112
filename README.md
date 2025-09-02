@@ -48,11 +48,10 @@ def sortstring():  # define a function
 sorted_string = sortstring()
 # Print the result
 print("Sorted string:", sorted_string)
-Sorted string: ehllo
 
 ```
-
-
+**Output**
+Sorted string: ehllo
 ---
 
 # 😀 Emoticon Replacer in Python
