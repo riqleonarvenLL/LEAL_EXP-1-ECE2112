@@ -51,13 +51,37 @@ print("Sorted string:", sorted_string)
 
 ```
 **Output**
+```
 Sorted string: ehllo
+```
 ---
 
 # 😀 Emoticon Replacer in Python
 
 This Python program replaces certain words in a sentence with emoticons.
+***Funtion***
+```python
+def replace_emoticons(): # define a function
+    emoticons = {"smile": ":)", "grin": ":D", "sad": ":((", "mad": ">:("} # define the elements (key pairs) of the dictionary
 
+    sentence = input("Type a word: ") # let user input their word of choice
+    words = sentence.split() # the split syntax is called on the sentence 
+    new_sentence = [] # define a new list that stores the appended sentence in the for loop
+
+    for word in words: # use for loop 
+        if word in emoticons: # use if loop to check whether the sentence has an element in the emoticons dictionary
+            new_sentence.append(emoticons[word]) # if an element was found, append the emoticons to the word/s that is present in the sentence given by the user to the new_sentence list
+        else:
+            new_sentence.append(word) # if an element was not found, just append the whole sentence into the new_sentence list
+
+    return " ".join(new_sentence) # use return '' to return the space character and the whole output, used syntax .join to concatenate the user's inputted string 
+
+print(replace_emoticons()) # print the final output
+```
+***Output***
+```
+>:(
+```
 ---
 
 ## What It Does
