@@ -38,6 +38,18 @@ This small Python script sorts the characters of a user-inputted word into alpha
 - Sorts the characters of that word alphabetically.
 - Prints the sorted string.
 
+  ```python
+def sortstring():  # define a function
+    user_input = input("Type a word: ")  # let user input their word of choice
+    return ''.join(sorted(user_input))   # Return the sorted string
+# # set sortedstring variable's value to the user's inputted string or word with the custom function
+sorted_string = sortstring()
+# Print the result
+print("Sorted string:", sorted_string)
+Sorted string: ehllo
+```
+
+
 ---
 
 # 😀 Emoticon Replacer in Python
