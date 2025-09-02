@@ -91,7 +91,7 @@ print(replace_emoticons()) # print the final output
 - Replaces those words with matching emoticons.
 - Prints the sentence with emoticons.
 ***Function***
-  ```python
+```python
   writeyourcodehere = [1,2,3,4,5,6] # set writeyourcodehere variable's list elements to 1,2,3,4,5,6
 
 first, *middle, last = writeyourcodehere # set the unpacking syntax
