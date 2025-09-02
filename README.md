@@ -37,8 +37,10 @@ This small Python script sorts the characters of a user-inputted word into alpha
 - Prompts the user to type a word.
 - Sorts the characters of that word alphabetically.
 - Prints the sorted string.
-
-  ```python
+  
+**Function:**
+ ```python
+  
 def sortstring():  # define a function
     user_input = input("Type a word: ")  # let user input their word of choice
     return ''.join(sorted(user_input))   # Return the sorted string
@@ -47,6 +49,7 @@ sorted_string = sortstring()
 # Print the result
 print("Sorted string:", sorted_string)
 Sorted string: ehllo
+
 ```
 
 
