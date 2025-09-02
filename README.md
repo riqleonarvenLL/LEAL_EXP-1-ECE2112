@@ -90,7 +90,22 @@ print(replace_emoticons()) # print the final output
 - Looks for specific words like "smile", "grin", "sad", and "mad".
 - Replaces those words with matching emoticons.
 - Prints the sentence with emoticons.
+***Function***
+  ```python
+  writeyourcodehere = [1,2,3,4,5,6] # set writeyourcodehere variable's list elements to 1,2,3,4,5,6
 
+first, *middle, last = writeyourcodehere # set the unpacking syntax
+
+print("First:", first) # print the first element
+print("Middle:", middle) # print the middle element/s
+print("Last:", last) # print the last element
+```
+***Output***
+```
+First: 1
+Middle: [2, 3, 4, 5]
+Last: 6
+```
 ---
 
 # 📦 List Unpacking in Python
